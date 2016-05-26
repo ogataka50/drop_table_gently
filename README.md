@@ -7,7 +7,7 @@
 ```
 usage : php drop_table_gently.php [environment] [exec_type] [target_resource_file] [option]
 
-environment : [dev|sandbox|sta|prod] read ./config{$environment}.ini
+environment : [dev|stg|prod] read ./config{$environment}.ini
 exec_type : [check|exec]
 target_resource_file : [file_name : 20150718/drop_list] read ./resource{$target_resource_file}.csv
 
